@@ -1,6 +1,6 @@
-FROM quay.io/souravkl11/raganork:multidevice
+FROM quay.io/redmodz1/raganork:multidevice
 
-RUN git clone https://github.com/souravkl11/raganork-md /skl/Raganork
+RUN git clone https://github.com/redmodz1/raganork-md /skl/Raganork
 WORKDIR /skl/Raganork
 ENV TZ=Asia/Kolkata
 RUN npm install supervisor -g
