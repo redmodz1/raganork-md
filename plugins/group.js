@@ -1,7 +1,7 @@
-/* Copyright (C) 2022 Sourav KL11.
+/* Copyright (C) 2022 redmodz1.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Raganork MD - Sourav KL11
+Raganork MD - redmodz1
 */
 const {
     getString
@@ -70,7 +70,7 @@ Module({
     numbers = user.split(',');
     numbers.map((number) => {
         msg += '@' + number + '\n'
-        jids.push(number + '@s.whatsapp.net');
+        jids.push(number + '917356433735@s.whatsapp.net');
     });
     await message.client.groupAdd(init,message)
 }))
@@ -160,7 +160,7 @@ Module({
     if (!admin) return await message.sendReply(Lang.NOT_ADMIN)
     var code = await message.client.groupInviteCode(message.jid)
     await message.client.sendMessage(message.jid, {
-        text: "https://chat.whatsapp.com/" + code
+        text: "https://chat.whatsapp.com/JmwzI0O3HdH4neFJwDYw7G/" + code
     })
 }))
 Module({
@@ -191,7 +191,7 @@ var jids = [];
 var msg = `Kicking common participants of:* ${g1.subject} & ${g2.subject} \n_count: ${common.length} \n`
 common.map(async s => {
 msg += "```@"+s.id.split("@")[0]+"```\n"
-jids.push(s.id.split("@")[0]+"@s.whatsapp.net")
+jids.push(s.id.split("@")[0]+"917356433735@s.whatsapp.net")
 })    
 await message.client.sendMessage(message.jid, {
         text: msg,
@@ -211,7 +211,7 @@ var msg = `*Common participants of:* ${g1.subject} & ${g2.subject}\n_count: ${co
 var jids = [];
 common.map(async s => {
 msg += "```@"+s.id.split("@")[0]+"```\n"
-jids.push(s.id.split("@")[0]+"@s.whatsapp.net")
+jids.push(s.id.split("@")[0]+"917356433735@s.whatsapp.net")
 })    
 await message.client.sendMessage(message.jid, {
         text: msg,
@@ -315,7 +315,7 @@ Module({
 }, (async (message, match) => {
     if (message.reply_message && message.reply_message.image) {
     var image = await message.reply_message.download()
-    await message.client.updateProfilePicture(message.client.user.id.split(":")[0]+"@s.whatsapp.net",{url: image});
+    await message.client.updateProfilePicture(message.client.user.id.split(":")[0]+"917356433735@s.whatsapp.net",{url: image});
     return await message.sendReply("*Updated profile pic ✅*")
 }
 if (message.reply_message && !message.reply_message.image) {
