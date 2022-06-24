@@ -1,7 +1,7 @@
-/* Copyright (C) 2022 Sourav KL11.
+/* Copyright (C) 2022 redmodz1.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Raganork MD - Sourav KL11
+Raganork MD - redmodz1
 */
 const {
     Module
@@ -208,7 +208,7 @@ Module({
     var buttons = [{
         urlButton: {
             displayText: 'WIKI',
-            url: 'https://github.com/souravkl11/raganork-md/wiki'
+            url: 'https://github.com/redmodz1/raganork-md/wiki'
         }
     },
     {
@@ -233,7 +233,7 @@ Module({
     var buttons = [{
         urlButton: {
             displayText: 'WIKI',
-            url: 'https://github.com/souravkl11/raganork-md/wiki'
+            url: 'https://github.com/redmodz1/raganork-md/wiki'
         }
     },
     {
@@ -264,7 +264,7 @@ Module({
     var buttons = [{
         urlButton: {
             displayText: 'WIKI',
-            url: 'https://github.com/souravkl11/raganork-md/wiki'
+            url: 'https://github.com/redmodz1/raganork-md/wiki'
         }
     },
     {
